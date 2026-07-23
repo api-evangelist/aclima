@@ -1,8 +1,31 @@
 aid: aclima
 name: Aclima
-description: Aclima is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aclima is a San Francisco-based environmental intelligence company that maps
+  and analyzes air pollution and greenhouse gas emissions at hyperlocal,
+  block-by-block resolution. Using a network of roving (vehicle-mounted) and
+  stationary sensors, Aclima measures multiple pollutants and climate gases
+  simultaneously at up to 100,000x greater resolution than traditional
+  monitoring, then translates billions of scientific measurements into
+  environmental intelligence for governments, companies, and communities.
+  Its professional analytics software, Aclima Pro, delivers visualization and
+  automated analytics for emissions reduction and public-health programs, while
+  its free air.health app maps address-level air and climate insights for the
+  communities Aclima serves. Co-founded by CEO Davida Herzl, Aclima is backed by
+  DCVC and is added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/aclima/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aclima.earth/hubfs/Aclima%20Logo%20(2022,%202023)/2022_Aclima_Triangle_BIG.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Environmental Intelligence
+- Air Quality
+- Climate
+- Greenhouse Gas Emissions
+- Sensors
+- Geospatial
+- Public Health
+- Data
 apis: []
+common:
+- type: Website
+  url: https://aclima.earth/
+- type: About
+  url: https://aclima.earth/about
+- type: Blog
+  url: https://aclima.earth/newsroom
+- type: Support
+  url: https://aclima.earth/contact-us
+- type: Login
+  url: https://pro.aclima.tools
+- type: TermsOfService
+  url: https://www.aclima.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.aclima.io/privacy-policy
+- type: Publications
+  url: https://aclima.earth/publications
+- type: GitHubOrganization
+  url: https://github.com/aclima
+- type: DomainSecurity
+  url: security/aclima-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
